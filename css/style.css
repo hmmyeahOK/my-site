@@ -1,0 +1,121 @@
+
+
+
+.banner-image {
+    margin:30px auto;
+    
+}
+
+.banner-image img {
+    display:block;
+    margin:0 auto;
+    width:90%;
+}
+
+.header-container {
+    background-color:#ffffff;
+    position:relative;
+    margin-top:45px;
+}
+
+.header-container h1 {
+    text-align:center ;
+    font-size: 160px;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0.6em;
+    padding-left:0.6em;
+}
+
+.name-underline {
+    margin: 0 auto;
+    width:87%;
+    height:2px;
+    background-color:#f16529;
+}
+
+.nav-bar {
+    margin:60px auto;
+}
+
+.nav-bar ul {
+    width:75%;
+    text-align:center;
+    margin:0 auto;
+    font-family: 'Roboto Condensed', sans-serif;   
+}
+
+.nav-bar li {
+    list-style: none;
+    display:inline;
+    font-size: 25px;
+    margin:0 4%;
+}
+
+li:hover{
+    text-decoration:none;
+    color:rgb(190, 77, 77);
+}
+
+
+
+#article {
+    position:relative;
+    width:65%;
+}
+
+.article p {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 36px;
+    
+}
+.article p span {
+    color: rgb(0, 0, 0);
+    float: left;
+    font-family: Georgia;
+    font-size: 220px;
+    line-height: 170px;
+    padding-top: 9px;
+    padding-right: 13px;
+    padding-left: 30px;
+}
+
+.shape {
+float: right;
+shape-outside: url('https://i.imgur.com/4422wPy.png');
+width: 350px;
+}
+
+
+.background-pictures {
+    background-attachment:fixed;
+    background-size: 100%;
+    background-repeat:no-repeat;
+    height:20px;
+    width:100%;   
+}
+
+.app-images {
+    overflow:auto;
+    margin:0 auto;
+
+}
+
+.app-images img {
+    display:inline-block;
+    max-width:200px;
+    max-height:200px;
+}
+
+.paragliders {
+    background-image:url('../pictures/paragliders.jpg');
+}
+
+.bird {
+    background-image:url('../pictures/bird.jpg');
+}
+
+.street {
+    background-image:url('../pictures/street.jpg');    
+}
+
+
